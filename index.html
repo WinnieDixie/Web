@@ -1,5 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap');
+</style>
+<style>
+    h2 {
+        color: rgb(0, 66, 137);
+    }
+
+    .clickables {
+        color: aquamarine;
+        font-size: medium;
+    }
+
+    .details {
+        font-size: small;
+        font-family: cursive;
+        font-style: italic;
+    }
+
+    p {
+        font-family: 'Gwendolyn', cursive;
+        font-size: 30px;
+    }
+</style>
 
 <head>
     <meta charset="UTF-8">
@@ -7,25 +34,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<h1>Web's For Clover</h1>
 
 <body>
-    <h1>Web's For Clover</h1>
     <p>With this website, I'll show things like: background image, Clickable Icons, And <a
             href="https://github.com/WinnieDixie/Web-s-For-Clover" target="_blank"> others</a>!</p>
-    <a href="#footer">Jump to Bottom</a>
-    <h2>Background image</h2>
-    <img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/0951e547074d10a.png">
-    <a href="https://www.equalityfederation.org/" target="_blank">Learn More!</a>
-    <p>The goal is to link a website to the website.</p>
-    <img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/47e9079348bd05e.png">
-    <p>Able to make a invisable background</p>
+    <a href="#footer" class="clickables">Jump to Bottom</a>
+</body>
+<h2>Background image</h2>
+<img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/0951e547074d10a.png">
+<a href="https://www.equalityfederation.org/" target="_blank" class="clickables">Learn More!</a>
+<p>The goal is to link a website to the website.</p>
+<img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/47e9079348bd05e.png">
+<p>Able to make a invisable background</p>
+<div>
+    <h2>Goals</h2>
     <ul>
-        <p> Goals </p>
         <li>Next.js Completion</li>
+        <ol>
+            <li>25%</li>
+            <li>50%</li>
+            <li>75%</li>
+        </ol>
         <li>CodeCamp Completion</li>
         <li>Pixel art Completion</li>
     </ul>
-    <footer id="footer">Copyright KittyStudios</footer>
+</div>
+<form method="POST" action="https://script.google.com/macros/s/AKfycbzLWo8bZ4dM96RfsUGmoa0wqIN1Zk_FbIe9A-ztEeVE/dev">
+    <input name="Email" type="email" placeholder="Email" required>
+    <input name="Name" type="text" placeholder="Name" required>
+    <input name="Question" type="text" placeholder="Question" required>
+    <button type="submit">Sumbit</button><br>
+
+    <label for="Kats"><input id="Kats" value="Kats" type="radio" name="Kats-D0gs">Kats</label>
+    <label for="D0gs"><input id="D0gs" value="D0gs" type="radio" name="Kats-D0gs">D0gs</label><br>
+
+    <label for="20s"><input id="20s" value="20s" type="checkbox" name="age-range">20s</label>
+    <label for="30s"><input id="30s" value="30s" type="checkbox" name="age-range">30s</label>
+    <label for="40s"><input id="40s" value="40s" type="checkbox" name="age-range">40s</label><br>
+
+</form>
+<footer id="footer">Copyright KittyStudios</footer>
 
 </body>
 
