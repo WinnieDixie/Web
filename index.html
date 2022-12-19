@@ -7,27 +7,26 @@
     @import url('https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap');
 </style>
 <style>
-    footer {
-        font-size: 20px;
+    a {
+        color: purple;
+    }
+
+    a:hover {
+        color: pink;
+    }
+
+    .backonform {
+        margin: 30px 20px 20px 30px;
     }
 
     body {
-        background-color: lavender;
+        background: rgb(192, 243, 243) url(https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/c554fcf08498c13.png) 0 0 repeat;
+        background-color: rgba(255, 212, 244, 0.097);
         color: rgb(239, 17, 143);
         font-family: 'Gwendolyn', cursive;
         font-size: 50px;
         text-align: center;
 
-    }
-
-    .lists {
-        background-color: rgb(249, 241, 252);
-        text-align: left;
-        font-size: 30px;
-    }
-
-    .backonform {
-        margin: 30px 20px 20px 30px;
     }
 
     .border {
@@ -37,13 +36,17 @@
         border-radius: 10px;
     }
 
-    h2 {
-        color: rgb(38, 122, 211);
-        text-align: center;
+    .boxed {
+        width: 350px;
+        border: 10px groove rgb(235, 95, 142);
+        border-radius: 5px;
+        margin: 10px 5px;
+        padding: 5px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
 
     .clickables {
-        color: rgb(0, 57, 38);
+        color: purple;
         font-size: 30px;
     }
 
@@ -53,8 +56,51 @@
         font-style: italic;
     }
 
+    footer {
+        font-size: 20px;
+    }
+
+    goals {
+        font-size: 90px;
+        color: darkmagenta;
+        text-align: center;
+        font-family: monospace;
+        text-transform: uppercase;
+    }
+
+    /*
+    h1 {}
+*/
+    h2 {
+        color: rgb(38, 122, 211);
+        text-align: center;
+    }
+
+    /*
+    h3 {}
+
+    h4 {}
+*/
+    h5 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 25px;
+        text-align: center;
+        text-decoration: dotted;
+        text-shadow: 20px;
+    }
+
+    .lists {
+        background-color: rgb(249, 241, 252);
+        font-size: 30px;
+        text-align: left;
+    }
+
     p {
         font-size: 30px;
+        text-align: center;
     }
 
     visual {
@@ -96,11 +142,10 @@
 <p>The goal is to link a website to the website.</p>
 <img class="border" src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/47e9079348bd05e.png">
 <p>Able to make a invisable background</p>
-<div class="lists">
+<div class="boxed lists">
     <ul>
-        <h2><strong>Goals</strong></h2>
-        <p>
-            <li>Next.js Completion</li>
+        <goals>Goals</goals>
+        <li>Next.js Completion</li>
         <ol>
             <li>25%</li>
             <li>50%</li>
@@ -108,7 +153,6 @@
         </ol>
         <li>CodeCamp Completion</li>
         <li>Pixel art Completion</li>
-        </p>
     </ul>
 </div>
 <hr>
@@ -129,8 +173,8 @@
 
     </p>
 </form>
-<footer id="footer">Copyright KittyStudios</footer>
-
+<footer id="footer">Copyright KittyStudios</footer><br>
+<h5>Tester words</h5>
 </body>
 
 </html>
