@@ -98,9 +98,33 @@
         text-align: left;
     }
 
+    #navbar {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        background-color: #ee9ff546;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav ul {
+        margin: 10px;
+        text-align: left;
+    }
+
     p {
         font-size: 30px;
         text-align: center;
+    }
+
+    #searchbar {
+        position: absolute;
+        top: 10px;
+        right: 50px;
     }
 
     visual {
@@ -119,6 +143,18 @@
     <title>Document</title>
 </head>
 <h1>Web's For Clover</h1>
+<nav id="navbar">
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">other</a></li>
+        <li>
+            <form id="searchbar"><label for="search">Search: </label><input type="search" id="search" name="search">
+                <input type="submit" name="submit" value="Go!">
+        </li>
+        </form>
+    </ul>
+</nav>
 
 <body>
     <p>With this website, I'll show things like: background image, Clickable Icons, And <a
@@ -126,19 +162,24 @@
     <a href="#footer" class="clickables">Jump to Bottom</a><br>
     <visual>
         <hr>
-        Now as of 12/18, I am learning <strong>Applied Visual Design</strong>.<br><em>I will be learning this for the
+        Now as of 12/18, I am learning <strong>Applied Visual Design</strong>.<br><em>I will be learning this for
+            the
             next
             <s>5</s> 3 days.</em>If you are following the github, you should see clover.html. clover.html is my
-        "notebook" for Next.js. Also the comments form down below the page should actually work. Message me to check if
+        "notebook" for Next.js. Also the comments form down below the page should actually work. Message me to check
+        if
         it did.<strong>Use the question area for comments on what I should cont~ learning.</strong>
     </visual>
     <hr>
 </body>
 <h2>Background image</h2>
 <img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/0951e547074d10a.png" width="700px">
+<br>
 <div>
     <a href="https://www.equalityfederation.org/" target="_blank" class="clickables">Learn More!</a>
 </div>
+<img src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/8a6c62ad45e7bfc.png" width="100px">
+<br>
 <p>The goal is to link a website to the website.</p>
 <img class="border" src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/47e9079348bd05e.png">
 <p>Able to make a invisable background</p>
