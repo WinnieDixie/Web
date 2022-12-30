@@ -11,7 +11,7 @@
     }
 
     a:hover {
-        color: pink;
+        color: rgb(139, 247, 139);
     }
 
     aside,
@@ -38,6 +38,7 @@
         border-width: 10px;
         border-style: dotted;
         border-radius: 10px;
+        align-self: auto;
     }
 
     #bottom {
@@ -67,6 +68,9 @@
     footer {
         font-size: 20px;
         position: relative;
+        background-color: c2fcc194;
+        color: purple;
+        padding: 0.5em;
     }
 
     goals {
@@ -113,11 +117,11 @@
     }
 
     #navbar {
-        position: fixed;
+        position: absolute;
         left: 0px;
         top: 0px;
         width: 100%;
-        background-color: #ee9ff546;
+        background-color: #c2fcc194;
     }
 
     nav li {
@@ -164,9 +168,9 @@
 <h1>Web's For Clover</h1>
 <nav id="navbar">
     <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">other</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/clover.html">Contact</a></li>
+        <li><a href="http://127.0.0.1:5500/Articlas.html">Articles</a></li>
         <li>
             <form id="searchbar"><label for="search">Search: </label><input type="search" id="search" name="search">
                 <input type="submit" name="submit" value="Go!">
@@ -208,7 +212,7 @@
         src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/47e9079348bd05e.png">
     <p>Able to make a invisable background</p>
 
-    <body>
+    <article>
         <section class="boxed lists" id="left">
             <ul>
                 <goals>Goals</goals>
@@ -224,18 +228,20 @@
         </section>
         <aside class="boxed lists" id="right">
             <ul>
-                <goals>Goals</goals>
-                <li>Next.js Completion</li>
+                <goals>Issues</goals>
+                <li>how to make a shoot off from main</li>
                 <ol>
-                    <li>25%</li>
-                    <li>50%</li>
-                    <li>75%</li>
+                    <li>article with mulitple buttons</li>
+                    <li>how to make two boxes stay on the same line</li>
+                    <li>how to input java into this</li>
                 </ol>
-                <li>CodeCamp Completion</li>
-                <li>Pixel art Completion</li>
+                <li>fix coloration</li>
+                <li>make the website go into a circle</li>
             </ul>
         </aside>
-        <hr><br>
+    </article>
+
+    <body>
         <footer id="footer">Copyright KittyStudios</footer><br>
         <h5>Tester words</h5>
         <form method="POST"
