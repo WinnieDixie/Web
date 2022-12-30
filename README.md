@@ -8,5 +8,5 @@
 6. Insure that you have VS code extenstine called "Live server"
 7. On the bottom  right, there should be a "Go Live" button.
 "This button can be used to view the website in your web browser"
-
-##WEBSITE HAS BEEN UPDATED
+<br>
+Atricles is a second web page for Index. Search will be added as i Learn. 
