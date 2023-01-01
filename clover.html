@@ -1,13 +1,53 @@
 <!--index.html-->
 <html>
+<style>
+  #navbar {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: #c2fcc194;
+  }
+
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav ul {
+    margin: 10px;
+    text-align: left;
+  }
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<h1>Web's For Clover</h1>
+<nav id="navbar">
+  <ul>
+    <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+    <li><a href="http://127.0.0.1:5500/heart.html">Heart</a></li>
+    <li><a href="http://127.0.0.1:5500/clover.html">Contact</a></li>
+    <li><a href="http://127.0.0.1:5500/Articlas.html">Articles</a></li>
+    <li>
+      <form id="searchbar"><label for="search">Search: </label><input type="search" id="search" name="search">
+        <input type="submit" name="submit" value="Go!">
+    </li>
+    </form>
+  </ul>
+</nav>
 
 <body>
-    <div id="app"></div>
-    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-    <!-- Babel Script -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script type="text/jsx">
+  <div id="app"></div>
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <!-- Babel Script -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/jsx">
       const app = document.getElementById('app');
 
       function Header() {
