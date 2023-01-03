@@ -65,7 +65,7 @@
         font-style: italic;
     }
 
-    footer {
+    #footer {
         background-color: lightgreen;
         color: purple;
         padding: 0.5em;
@@ -133,14 +133,15 @@
     }
 
     .back {
+        border: #ffcccc;
         z-index: -1;
         position: absolute;
         padding: 0;
         margin: 0;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        height: 50%;
         background: white;
         animation-name: backdiv;
         animation-duration: 1s;
@@ -200,16 +201,72 @@
             transform: scale(0.6) rotate(-45deg);
         }
     }
+
+    .stars {
+        background-color: white;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        animation-iteration-count: infinite;
+    }
+
+    .star-1 {
+        margin-top: 15%;
+        margin-left: 60%;
+        animation-name: twinkle-1;
+        animation-duration: 1s;
+    }
+
+    .star-2 {
+        margin-top: 25%;
+        margin-left: 25%;
+        animation-name: twinkle-2;
+        animation-duration: 1s;
+    }
+
+    @keyframes twinkle-1 {
+        50% {
+            transform: scale(0.5);
+            opacity: 0.5;
+        }
+    }
+
+    @keyframes twinkle-2 {
+        20% {
+            transform: scale(0.5);
+            opacity: 0.5;
+        }
+    }
+
+    #back {
+        border: #ffcccc;
+        z-index: -1;
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        height: 50%;
+        background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);
+    }
+
+    article {
+        border: #ffcccc;
+        border-radius: 20px;
+        width: 70%;
+        height: 400px auto;
+        margin: 50px auto;
+    }
 </style>
 
-<body>
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
     <h1>Web's For Clover</h1>
     <nav id="navbar">
         <ul>
@@ -224,9 +281,25 @@
             </form>
         </ul>
     </nav>
-    <hr>
+</header>
+
+<body>
     <main>
-        <div class="back"></div>
-        <div class="heart"></div>
+        <h3>bbbeeeep</h3>
+
+        <section>
+            <ul class="back">
+                <div class="heart"></div>
+            </ul>
+        </section>
+        <section>
+            <ul id="back">
+                <div class="star-1 stars"></div>
+                <div class="star-2 stars"></div>
+            </ul>
+        </section>
     </main>
+    <footer> &copy; 2023 KittyStudios</footer>
 </body>
+
+</html>
