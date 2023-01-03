@@ -9,4 +9,4 @@
 7. On the bottom  right, there should be a "Go Live" button.
 "This button can be used to view the website in your web browser"
 <br>
-Atricles is a second web page for Index. Search will be added as i Learn. 
+<h2>Remember to check out the (Monthly Status Report) and (To Do List).</h2>
