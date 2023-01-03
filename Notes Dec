@@ -1,0 +1,65 @@
+//December 2022//
+Title: responsive-web-design
+Level: Create an Ordered List
+
+Title: Web3 Developer ToolBox
+{IDE
+-Remix (web based)
+~Visual studio (used for UI)~
+Blockchain
+-Ganache (Test your own Blockchain)
+-Truffle (gives you tools and debugging scripts)
+-Hardhat (-^ same but with plug ins)
+Packages
+-Ethers.js (javascript to give to blockchain) lastest and advance
+-Web3.js (older and difficult)
+-OpenZeppelin (Audits and Smart Contract Security)
+Front Ends
+-React(Create front end web applications)
+~Next.js(code is complied on the server then given to you) (bots and faster page loading)~
+APIs
+-Infura (uniswap and compounds)
+-Moralis (Fast Growing)
+-Alchemy (MakerDao, Meta and Opensea)
+Websites
+-Etherscan (Blockchain explores, sort transactions)
+-Hex to decimal (hexademical number to deciamals numbers)
+-WEI to ETH (WEI TO GWEI TO ETH) 10^18 WEI = 1 ether | 10^9 WEI = GWEI}
+
+Title: What are dApps and Smart Contracts
+{Replies back to the blockchain
+can only be build on smart contract networks
+bitcoin no, etherum yes
+Paused video because i need to know what smart contracts are
+What are Smart Contracts in Crypto?
+Does something if something else happens So like requirements before it happens?more like a will
+If{ ____;____} else {___; ____}
+Kickstarter is exmaple
+They are immutable and distributed
+no discrepancies cant be lawyered up
+Flash loan: borrow 10$ million, buy doge coin, sell on gemini, payback loan, profit
+Insurance: Farmer pays insurance and gets 4 days of bad weather, farmer gets $payout ->Oracles
+Token switching: gives 20 etherum and get 30 attention token, uniswap, used mostly if coin isnt of coinbase decentralized exchanges.
+Buying a house: NFTs, Deed on Blockchain, 
+Contiused dApps 
+Smart Contracts are open sourced and censorship resistant
+never go offline
+Financial dApps
+DeFi uses blockchain
+Borrowing and Lending AAVE
+Providing liquidity
+Exchanges -> Dexes
+Game dApps
+Cryptokitties -> buy NFT, Selling Kittys
+Zed Run -> Virtual Horse Gambling
+Gambling -> poker, dice, and sevens
+Tracking dApps
+Centeralized on web servers
+Zapper.fi
+Marketplaces
+Cryptokitties
+Raribles
+Bidali buy with crypto
+Educational
+Whiteboard crypto
+ENS- long ethereum address to any address you want}
