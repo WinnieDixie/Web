@@ -10,3 +10,6 @@
 "This button can be used to view the website in your web browser"
 <br>
 <h2>Remember to check out the (Monthly Status Report) and (To Do List).</h2>
+<p>Album: https://freemusicarchive.org/music/audiorezout/born-for-freedom
+Song:https://freemusicarchive.org/music/audiorezout/born-for-freedom/elzi/
+Create a file within the project file named "WEBMUSIC". In this folder, add any music available. </p>
