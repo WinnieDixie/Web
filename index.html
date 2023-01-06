@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap');
+
+    a {
+        color: purple;
+    }
+
+    a:hover {
+        color: rgb(139, 247, 139);
+    }
+
+    aside,
+    section {
+        padding: 2px;
+    }
+
+    .backonform {
+        margin: 30px 20px 20px 30px;
+    }
+
+    body {
+        background: rgb(192, 243, 243) url(https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/c554fcf08498c13.png) 0 0 repeat;
+        background-color: rgba(255, 212, 244, 0.097);
+        color: rgb(239, 17, 143);
+        font-family: 'Gwendolyn', cursive;
+        font-size: 50px;
+        text-align: center;
+
+    }
+
+    .border {
+        border-color: rgb(254, 221, 100);
+        border-width: 10px;
+        border-style: dotted;
+        border-radius: 10px;
+        align-self: auto;
+    }
+
+    #bottom {
+        float: none;
+    }
+
+    .boxed {
+        width: 350px;
+        border: 10px groove rgb(235, 95, 142);
+        border-radius: 5px;
+        margin: 10px 5px;
+        padding: 5px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    .clickables {
+        color: purple;
+        font-size: 30px;
+    }
+
+    .details {
+        font-size: small;
+        font-family: cursive;
+        font-style: italic;
+    }
+
+    #footer {
+        background-color: lightgreen;
+        color: purple;
+        padding: 0.5em;
+    }
+
+    goals {
+        font-size: 90px;
+        color: darkmagenta;
+        text-align: center;
+        font-family: monospace;
+        text-transform: uppercase;
+    }
+
+    /*
+    h1 {}
+*/
+    h2 {
+        color: rgb(38, 122, 211);
+        text-align: center;
+    }
+
+    /*
+    h3 {}
+
+    h4 {}
+*/
+    h5 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 25px;
+        text-align: center;
+        text-decoration: dotted;
+        text-shadow: 20px;
+    }
+
+    #left {
+        float: left;
+        width: 47%;
+    }
+
+    .lists {
+        background-color: rgb(249, 241, 252);
+        font-size: 30px;
+        text-align: left;
+    }
+
+    #navbar {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        background-color: #c2fcc194;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav ul {
+        margin: 10px;
+        text-align: left;
+    }
+
+    p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #right {
+        float: right;
+        width: 47%;
+    }
+
+    #searchbar {
+        position: absolute;
+        top: 10px;
+        right: 50px;
+    }
+
+    visual {
+        font-size: 20px;
+        font-style: normal;
+        font-family: monospace;
+        text-align: justify;
+
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <h1>Web's For Clover</h1>
+    <nav id="navbar">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/heart.html">Heart</a></li>
+            <li><a href="http://127.0.0.1:5500/clover.html">Contact</a></li>
+            <li><a href="http://127.0.0.1:5500/Articlas.html">Articles</a></li>
+            <li>
+                <form id="searchbar"><label for="search">Search: </label><input type="search" id="search" name="search">
+                    <input type="submit" name="submit" value="Go!">
+            </li>
+            </form>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <p>With this website, I'll show things like: background image, Clickable Icons, And <a
+                href="https://github.com/WinnieDixie/Web-s-For-Clover" target="_blank"> others</a>!</p>
+        <a href="#footer" class="clickables">Jump to Bottom</a><br>
+        <visual>
+            <hr>
+            <time datetime="2023-01-03">January 3<sup>rd</sup>, 2023</time>, I am learning <strong>Legacy Responsive Web
+                Design</strong>.<br><em>I will be finish in 2 <s>Days</s> months.</em>If you are following the github,
+            you should see A few .html files. A spreadsheet and animainations have been added.<strong>Use the question
+                area for comments on what I should cont~ learning.</strong>
+        </visual>
+        <hr>
+        <h2>Background image</h2>
+        <img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/0951e547074d10a.png"
+            width="700px" alt="A pixel photo of mountains">
+        <br>
+        <div>
+            <a href="https://www.equalityfederation.org/" target="_blank" class="clickables">Learn More!</a>
+        </div>
+        <img src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/8a6c62ad45e7bfc.png"
+            width="100px" alt="A blocky gradient from white to black.">
+        <br>
+        <p>The goal is to link a website to the website.</p>
+        <img class="border"
+            src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/47e9079348bd05e.png"
+            alt="The word happy in yellow with a dotted border">
+        <p>Able to make a invisable background</p>
+
+        <article>
+            <section class="boxed lists" id="left">
+                <ul>
+                    <goals>Goals</goals>
+                    <li>Next.js Completion</li>
+                    <ol>
+                        <li>25%</li>
+                        <li>50%</li>
+                        <li>75%</li>
+                    </ol>
+                    <li>CodeCamp Completion</li>
+                    <li>Pixel art Completion</li>
+                </ul>
+            </section>
+            <aside class="boxed lists" id="right">
+                <ul>
+                    <goals>Issues</goals>
+                    <li>how to make a shoot off from main</li>
+                    <ol>
+                        <li>article with mulitple buttons</li>
+                        <li>how to make two boxes stay on the same line</li>
+                        <li>how to input java into this</li>
+                        <li>How to make it available in smaller screen</li>
+                        <li>how to make it available for phone</li>
+                    </ol>
+                    <li>fix coloration</li>
+                    <li>make the website go into a circle</li>
+                </ul>
+            </aside>
+        </article>
+        <br>
+        <article>
+            <form method="POST"
+                action="https://script.google.com/macros/s/AKfycbzLWo8bZ4dM96RfsUGmoa0wqIN1Zk_FbIe9A-ztEeVE/dev">
+                <fieldset class="backonform">
+                    <legend>For any questions, Fill out the form below</legend>
+                    <input name="Email" type="email" placeholder="Email" required>
+                    <input name="Name" type="text" placeholder="Name" required>
+                    <input name="Question" type="text" placeholder="Question" required>
+                    <button type="submit">Sumbit</button><br>
+                    <Legend>How old are you?</Legend>
+                    <input name="Age" type="number" placeholder="Age" required>
+                    <Legend>How gay are you?</Legend>
+                    <input name="gay" type="range" placeholder="gay" required>
+                    <Legend>What is your birth date?</Legend>
+                    <input name="birthdate" type="date" placeholder="birthdate" required>
+                    <Legend>What is your cell number?</Legend>
+                    <input name="phone number" type="tel" placeholder="phonenumber" required>
+                    <Legend>What pet do you have?</Legend>
+                    <label for="Cats"><input id="Cats" value="Cats" type="checkbox" name="age-range">Cats</label>
+                    <label for="Dogs"><input id="Dogs" value="Dogs" type="checkbox" name="age-range">Dogs</label>
+                    <label for="Other"><input id="Other" value="Other" type="checkbox"
+                            name="age-range">Other</label><br>
+                    <button type="submit">Submit</button><br>
+                </fieldset>
+            </form>
+        </article>
+        <hr>
+    </main>
+    <footer>&copy; 2023 KittyStudios</footer>
+</body>
+
+</html>
