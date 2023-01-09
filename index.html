@@ -19,6 +19,10 @@
         padding: 2px;
     }
 
+    article {
+        display: flex;
+    }
+
     .backonform {
         margin: 30px 20px 20px 30px;
     }
@@ -46,11 +50,11 @@
     }
 
     .boxed {
-        width: 350px;
+        width: 100vw;
         border: 10px groove rgb(121, 4, 41);
         border-radius: 5px;
         margin: 10px 5px;
-        padding: 5px;
+        padding: 0px;
         box-shadow: 0 10px 20px rgba(87, 3, 3, 0.515), 0 6px 6px rgba(0, 0, 0, 0.23);
     }
 
@@ -69,6 +73,8 @@
         background-color: lightgreen;
         color: rgb(107, 1, 107);
         padding: 0.5em;
+        display: flex;
+        flex-direction: row;
     }
 
     goals {
@@ -106,6 +112,8 @@
     #left {
         float: left;
         width: 47%;
+        display: flex;
+
     }
 
     legend:focus {
@@ -124,21 +132,31 @@
         top: 0px;
         width: 100%;
         background-color: #ad00bc2f;
+        width: 100vmax;
+        height: 11vh;
+        display: flex;
+        align-self: auto;
+
     }
 
     nav li {
         display: inline;
         margin-right: 20px;
+
+
     }
 
     nav ul {
         margin: 10px;
         text-align: left;
+        width: 100vmin;
+
     }
 
     p {
         font-size: 30px;
         text-align: center;
+        width: 100vw;
     }
 
     p:focus {
@@ -156,6 +174,11 @@
         position: absolute;
         top: 10px;
         right: 50px;
+    }
+
+    ul {
+        width: 100vw;
+
     }
 
     visual {
@@ -250,6 +273,16 @@
                 </ul>
             </aside>
         </article>
+        <br>
+        <p>break here</p>
+        <br>
+        <p>break here</p>
+        <br>
+        <p>break here</p>
+        <br>
+        <p>break here</p>
+        <br>
+        <p>break here</p>
         <br>
         <article>
             <form method="POST"
