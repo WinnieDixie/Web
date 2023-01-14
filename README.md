@@ -1,5 +1,5 @@
 ## Web Testing and Creation:
-
+---Break until 18th---
 1. Click "this pc" -> click drive with "(C:)" -> click "Users" -> click file with your user "josh"
 2. Create a file called "index.html"
 3. Open VS Code
